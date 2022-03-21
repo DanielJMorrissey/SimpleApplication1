@@ -5,7 +5,7 @@ sudo npm install -g pm2
 
 pm2 stop simple_app
 
-cd SimpleAppllication1
+cd SimpleApplication1
 
 npm install
 
