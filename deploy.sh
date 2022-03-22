@@ -8,5 +8,7 @@ pm2 stop simple_app
 cd SimpleApplication1
 
 npm install
+echo $PRIVATE_KEY > privatekey.pem
+echo $SERVER > server.crt
 
 pm2 start ./bin/www --name simple_app
